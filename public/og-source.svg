@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F4F6F3"/>
+  <rect x="68" y="68" width="1064" height="494" rx="28" fill="#13261E"/>
+  <path d="M735 152h315M735 220h240M735 288h315M735 356h270M735 424h315" stroke="#47554E" stroke-width="2" stroke-dasharray="6 10"/>
+  <circle cx="1036" cy="220" r="9" fill="#E8A317"/>
+  <text x="136" y="250" fill="#F4F6F3" font-family="Arial, sans-serif" font-size="82" font-weight="700">Sheila Kwan</text>
+  <text x="140" y="338" fill="#DDE8E0" font-family="Courier New, monospace" font-size="34">AI that actually pays.</text>
+  <path d="M140 365h342" stroke="#E8A317" stroke-width="8" stroke-linecap="round"/>
+  <text x="140" y="468" fill="#DDE8E0" font-family="Arial, sans-serif" font-size="25">AI implementation · customer success · pipeline systems</text>
+</svg>
