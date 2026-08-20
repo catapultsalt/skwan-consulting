@@ -40,7 +40,7 @@ export default function Home() {
             <Eyebrow>AI IMPLEMENTATION · CUSTOMER SUCCESS · PIPELINE</Eyebrow>
             <h1>
               <span className="hero-line hero-line-one">AI is everywhere in your industry.</span>
-              <span className="hero-line hero-line-two">Results are not.</span>
+              <span className="hero-line hero-line-two"><em>Results</em> are not.</span>
             </h1>
             <p className="hero-subhead">
               I help B2B teams put AI to work where it actually pays: keeping the customers you have and filling the
@@ -57,30 +57,32 @@ export default function Home() {
           </div>
           <figure className="hero-art" aria-label="The Diagnose, Build, Adopt operating method">
             <div className="hero-art-orbit" aria-hidden="true" />
-            <div className="hero-ledger">
-              <div className="hero-ledger-heading">
-                <span>Operating record</span>
-                <span>Live</span>
+            <div className="playbook-board">
+              <span className="playbook-note">built for Monday morning</span>
+              <div className="playbook-heading">
+                <span>From pressure</span>
+                <strong>to proof</strong>
               </div>
-              <div className="hero-ledger-row">
+              <div className="playbook-step playbook-step-one">
                 <span>01</span>
-                <strong>Diagnose</strong>
-                <i />
+                <strong>Diagnose the number</strong>
+                <i aria-hidden="true">✓</i>
               </div>
-              <div className="hero-ledger-row">
+              <div className="playbook-step playbook-step-two">
                 <span>02</span>
-                <strong>Build</strong>
-                <i />
+                <strong>Build the smallest fix</strong>
+                <i aria-hidden="true">✓</i>
               </div>
-              <div className="hero-ledger-row">
+              <div className="playbook-step playbook-step-three">
                 <span>03</span>
-                <strong>Adopt</strong>
-                <i />
+                <strong>Make it stick</strong>
+                <i aria-hidden="true">✓</i>
               </div>
-              <div className="hero-ledger-result">
-                <span>Owner</span>
-                <strong>Your team</strong>
-              </div>
+              <span className="playbook-stamp">YOUR TEAM OWNS IT</span>
+              <svg className="playbook-arrow" viewBox="0 0 120 74" aria-hidden="true">
+                <path d="M5 10C38 3 74 8 86 31C95 48 83 60 64 63" />
+                <path d="M66 48L61 64L78 69" />
+              </svg>
             </div>
           </figure>
           <p className="credibility-strip">

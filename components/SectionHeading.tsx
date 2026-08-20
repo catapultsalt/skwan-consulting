@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import { Eyebrow } from "@/components/Eyebrow";
 
 export function SectionHeading({
   eyebrow,
@@ -14,10 +13,9 @@ export function SectionHeading({
 }) {
   return (
     <div className={`section-heading ${light ? "section-heading-light" : ""}`.trim()}>
-      {eyebrow ? <Eyebrow light={light}>{eyebrow}</Eyebrow> : null}
       <h2>{children}</h2>
+      {eyebrow ? <span className="section-note">{eyebrow}</span> : null}
       {description ? <p>{description}</p> : null}
     </div>
   );
 }
-

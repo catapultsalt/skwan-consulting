@@ -9,12 +9,13 @@ Legend: `[x]` done, `[~]` in progress, `[ ]` ready, `[!]` blocked by account, pu
 - [x] Reconcile the business plan, website plan, build spec, and launch checklist.
 - [x] Establish the product and brand context in `PRODUCT.md`.
 - [x] Build the complete website preview and all public routes.
+- [x] Replace the restrained first design with the confident, charming, trustworthy, and creative “Marked-Up Playbook” system.
 - [x] Verify responsive behavior, keyboard access, forms, SEO, lint, and the production build.
 - [x] Publish a review link before connecting the final domain: `https://skwan-consulting.vercel.app/review`.
 
 ## Website acceptance
 
-- [x] Shared visual system and responsive navigation
+- [x] “Marked-Up Playbook” visual system, tactile components, and responsive navigation
 - [x] Home
 - [x] AI Clarity Audit
 - [x] Services
@@ -30,7 +31,7 @@ Legend: `[x]` done, `[~]` in progress, `[ ]` ready, `[!]` blocked by account, pu
 - [x] Analytics events, enabled automatically on Vercel
 - [x] Metadata, JSON-LD, sitemap, robots, favicon, and Open Graph image
 - [x] Lint, typecheck, production build, responsive browser QA, accessibility, and Lighthouse
-- [x] Final `DESIGN.md` and `.impeccable/design.json` extracted from the implementation
+- [x] Final `DESIGN.md` and `.impeccable/design.json` synchronized to the redesign
 
 ## Verification evidence
 
@@ -41,8 +42,8 @@ Legend: `[x]` done, `[~]` in progress, `[ ]` ready, `[!]` blocked by account, pu
 - [x] Mobile navigation: keyboard-accessible, 44px targets, hidden links removed from the accessibility tree
 - [x] Contact form: server validation and preview submission verified
 - [x] Scorecard form: double-opt-in preview state verified
-- [x] Axe: zero accessibility violations on sampled Home, Audit, Scorecard, Contact, and Review screens
-- [x] Lighthouse production audit: Performance 100, Accessibility 100, Best Practices 100, SEO 100
+- [x] Accessibility: Lighthouse 100 after redesign; prior axe scan found zero violations on sampled routes
+- [x] Lighthouse production audit after redesign: Performance 94, Accessibility 100, Best Practices 100, SEO 100
 - [ ] User human QA on phone and laptop
 
 ## Launch checklist

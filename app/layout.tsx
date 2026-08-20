@@ -1,30 +1,31 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Azeret_Mono, Bricolage_Grotesque, Public_Sans } from "next/font/google";
+import { Gabarito, Hanken_Grotesk, Kalam } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { Nav } from "@/components/Nav";
 import { site } from "@/site.config";
 import "./globals.css";
+import "./redesign.css";
 
-const display = Bricolage_Grotesque({
+const display = Gabarito({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["500", "600", "700", "800", "900"],
   display: "swap",
 });
 
-const body = Public_Sans({
+const body = Hanken_Grotesk({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
-const mono = Azeret_Mono({
-  variable: "--font-mono",
+const note = Kalam({
+  variable: "--font-note",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -82,7 +83,7 @@ const businessJsonLd = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html lang="en" className={`${display.variable} ${body.variable} ${note.variable}`}>
       <body>
         <a href="#main-content" className="skip-link">
           Skip to content
