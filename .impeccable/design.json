@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-20T19:12:56Z",
+  "title": "Design System: Sheila Kwan Consulting",
+  "extensions": {
+    "colorMeta": {
+      "mist": {
+        "role": "neutral",
+        "displayName": "Ledger Mist",
+        "canonical": "oklch(97.08% 0.0045 134.85)",
+        "tonalRamp": ["oklch(15% 0.0045 134.85)", "oklch(27% 0.0045 134.85)", "oklch(39% 0.0045 134.85)", "oklch(51% 0.0045 134.85)", "oklch(63% 0.0045 134.85)", "oklch(75% 0.0045 134.85)", "oklch(87% 0.0045 134.85)", "oklch(95% 0.0045 134.85)"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Paper Surface",
+        "canonical": "oklch(99.2% 0.0025 145)",
+        "tonalRamp": ["oklch(15% 0.0025 145)", "oklch(27% 0.0025 145)", "oklch(39% 0.0025 145)", "oklch(51% 0.0025 145)", "oklch(63% 0.0025 145)", "oklch(75% 0.0025 145)", "oklch(87% 0.0025 145)", "oklch(95% 0.0025 145)"]
+      },
+      "evergreen": {
+        "role": "neutral",
+        "displayName": "Ledger Evergreen",
+        "canonical": "oklch(24.93% 0.0295 165.42)",
+        "tonalRamp": ["oklch(15% 0.0295 165.42)", "oklch(27% 0.0295 165.42)", "oklch(39% 0.0295 165.42)", "oklch(51% 0.0295 165.42)", "oklch(63% 0.0295 165.42)", "oklch(75% 0.0295 165.42)", "oklch(87% 0.0295 165.42)", "oklch(95% 0.0295 165.42)"]
+      },
+      "slate": {
+        "role": "neutral",
+        "displayName": "Operator Slate",
+        "canonical": "oklch(43.51% 0.021 163.81)",
+        "tonalRamp": ["oklch(15% 0.021 163.81)", "oklch(27% 0.021 163.81)", "oklch(39% 0.021 163.81)", "oklch(51% 0.021 163.81)", "oklch(63% 0.021 163.81)", "oklch(75% 0.021 163.81)", "oklch(87% 0.021 163.81)", "oklch(95% 0.021 163.81)"]
+      },
+      "pine": {
+        "role": "primary",
+        "displayName": "Operating Pine",
+        "canonical": "oklch(42.57% 0.0791 164.27)",
+        "tonalRamp": ["oklch(15% 0.0791 164.27)", "oklch(27% 0.0791 164.27)", "oklch(39% 0.0791 164.27)", "oklch(51% 0.0791 164.27)", "oklch(63% 0.0791 164.27)", "oklch(75% 0.0791 164.27)", "oklch(87% 0.0791 164.27)", "oklch(95% 0.0791 164.27)"]
+      },
+      "pine-deep": {
+        "role": "primary",
+        "displayName": "Deep Pine",
+        "canonical": "oklch(35.97% 0.0675 164.94)",
+        "tonalRamp": ["oklch(15% 0.0675 164.94)", "oklch(27% 0.0675 164.94)", "oklch(39% 0.0675 164.94)", "oklch(51% 0.0675 164.94)", "oklch(63% 0.0675 164.94)", "oklch(75% 0.0675 164.94)", "oklch(87% 0.0675 164.94)", "oklch(95% 0.0675 164.94)"]
+      },
+      "fern": {
+        "role": "secondary",
+        "displayName": "Health Fern",
+        "canonical": "oklch(92.04% 0.0159 154.46)",
+        "tonalRamp": ["oklch(15% 0.0159 154.46)", "oklch(27% 0.0159 154.46)", "oklch(39% 0.0159 154.46)", "oklch(51% 0.0159 154.46)", "oklch(63% 0.0159 154.46)", "oklch(75% 0.0159 154.46)", "oklch(87% 0.0159 154.46)", "oklch(95% 0.0159 154.46)"]
+      },
+      "marigold": {
+        "role": "tertiary",
+        "displayName": "Signal Marigold",
+        "canonical": "oklch(76.29% 0.1551 77.31)",
+        "tonalRamp": ["oklch(15% 0.1551 77.31)", "oklch(27% 0.1551 77.31)", "oklch(39% 0.1551 77.31)", "oklch(51% 0.1551 77.31)", "oklch(63% 0.1551 77.31)", "oklch(75% 0.1551 77.31)", "oklch(87% 0.1551 77.31)", "oklch(95% 0.1551 77.31)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(89.69% 0.0101 155.08)",
+        "tonalRamp": ["oklch(15% 0.0101 155.08)", "oklch(27% 0.0101 155.08)", "oklch(39% 0.0101 155.08)", "oklch(51% 0.0101 155.08)", "oklch(63% 0.0101 155.08)", "oklch(75% 0.0101 155.08)", "oklch(87% 0.0101 155.08)", "oklch(95% 0.0101 155.08)"]
+      },
+      "danger": {
+        "role": "danger",
+        "displayName": "Plain Error",
+        "canonical": "oklch(50% 0.12 30)",
+        "tonalRamp": ["oklch(15% 0.12 30)", "oklch(27% 0.12 30)", "oklch(39% 0.12 30)", "oklch(51% 0.12 30)", "oklch(63% 0.12 30)", "oklch(75% 0.12 30)", "oklch(87% 0.12 30)", "oklch(95% 0.12 30)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "One decisive page headline with a deliberately tight measure." },
+      "headline": { "displayName": "Headline", "purpose": "Section propositions and proof statements." },
+      "title": { "displayName": "Title", "purpose": "Offer, process, FAQ, and article titles." },
+      "body": { "displayName": "Body", "purpose": "Plain-language copy with an open, practical rhythm." },
+      "label": { "displayName": "Numbers Voice", "purpose": "Statistics, prices, dates, eyebrows, and operating states." }
+    },
+    "shadows": [
+      { "name": "ledger-rest", "value": "0 1px 2px color-mix(in oklch, var(--evergreen), transparent 94%)", "purpose": "A nearly invisible resting cue on paper-like artifacts and cards." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Direct state feedback and restrained entrance motion." },
+      { "name": "reveal", "value": "500ms fade with 12px rise", "purpose": "One-time section reveal, disabled for reduced motion." },
+      { "name": "hero-stagger", "value": "80ms", "purpose": "Offsets the two hero headline lines on initial load." }
+    ],
+    "breakpoints": [
+      { "name": "tablet", "value": "900px" },
+      { "name": "mobile", "value": "680px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The principal commitment action for fit calls and next steps.",
+      "html": "<button class=\"ds-btn-primary\">Book a fit call</button>",
+      "css": ".ds-btn-primary { min-height: 46px; border: 1px solid transparent; border-radius: 10px; padding: 12px 18px; background: oklch(42.57% 0.0791 164.27); color: oklch(97.08% 0.0045 134.85); font: 700 15px/1.15 'Public Sans', Arial, sans-serif; cursor: pointer; transition: transform 220ms cubic-bezier(0.16,1,0.3,1), background-color 220ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-primary:hover { background: oklch(35.97% 0.0675 164.94); transform: translateY(-2px); } .ds-btn-primary:focus-visible { outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 3px; } .ds-btn-primary:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A clear alternate action that stays quieter than the primary commitment.",
+      "html": "<button class=\"ds-btn-secondary\">Get the AI Reality Check</button>",
+      "css": ".ds-btn-secondary { min-height: 46px; border: 1px solid oklch(24.93% 0.0295 165.42); border-radius: 10px; padding: 12px 18px; background: transparent; color: oklch(24.93% 0.0295 165.42); font: 700 15px/1.15 'Public Sans', Arial, sans-serif; cursor: pointer; transition: transform 220ms cubic-bezier(0.16,1,0.3,1), border-color 220ms cubic-bezier(0.16,1,0.3,1); } .ds-btn-secondary:hover { border-color: oklch(42.57% 0.0791 164.27); color: oklch(42.57% 0.0791 164.27); transform: translateY(-2px); } .ds-btn-secondary:focus-visible { outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 3px; } .ds-btn-secondary:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "An explicit, labeled input for contact and opt-in forms.",
+      "html": "<label class=\"ds-field\"><span>Work email</span><input type=\"email\" placeholder=\"you@company.com\"></label>",
+      "css": ".ds-field { display: grid; gap: 7px; color: oklch(24.93% 0.0295 165.42); font: 600 14px/1.4 'Public Sans', Arial, sans-serif; } .ds-field input { min-height: 48px; border: 1px solid oklch(89.69% 0.0101 155.08); border-radius: 10px; padding: 13px 16px; background: oklch(99.2% 0.0025 145); color: oklch(24.93% 0.0295 165.42); font: 400 17px/1.5 'Public Sans', Arial, sans-serif; } .ds-field input:hover { border-color: oklch(43.51% 0.021 163.81); } .ds-field input:focus-visible { border-color: oklch(42.57% 0.0791 164.27); outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 2px; }"
+    },
+    {
+      "name": "Price Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "A compact mono treatment for price, timing, and operating status.",
+      "html": "<span class=\"ds-chip\">$4,500 · fixed · 2 weeks</span>",
+      "css": ".ds-chip { display: inline-flex; min-height: 46px; align-items: center; border-radius: 999px; padding: 10px 16px; background: oklch(92.04% 0.0159 154.46); color: oklch(43.51% 0.021 163.81); font: 600 12px/1.4 'Azeret Mono', monospace; letter-spacing: 0.05em; } .ds-chip:hover { color: oklch(24.93% 0.0295 165.42); } .ds-chip:focus-visible { outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 3px; }"
+    },
+    {
+      "name": "Offer Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "A paper-like offer surface structured by a hairline border rather than shadow.",
+      "html": "<article class=\"ds-card\"><span>AI CLARITY AUDIT</span><h3>Know where AI pays off.</h3><p>A ranked map, a working quick win, and a 90-day plan.</p></article>",
+      "css": ".ds-card { max-width: 360px; border: 1px solid oklch(89.69% 0.0101 155.08); border-radius: 14px; padding: 32px; background: oklch(99.2% 0.0025 145); color: oklch(24.93% 0.0295 165.42); box-shadow: 0 1px 2px color-mix(in oklch, oklch(24.93% 0.0295 165.42), transparent 94%); transition: border-color 220ms cubic-bezier(0.16,1,0.3,1), transform 220ms cubic-bezier(0.16,1,0.3,1); } .ds-card > span { color: oklch(43.51% 0.021 163.81); font: 600 11px/1.4 'Azeret Mono', monospace; letter-spacing: 0.115em; } .ds-card h3 { margin: 16px 0 10px; font: 600 28px/1.06 'Bricolage Grotesque', Arial, sans-serif; letter-spacing: -0.025em; } .ds-card p { margin: 0; color: oklch(43.51% 0.021 163.81); font: 400 17px/1.65 'Public Sans', Arial, sans-serif; } .ds-card:hover { border-color: oklch(42.57% 0.0791 164.27); transform: translateY(-2px); } .ds-card:focus-within { outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ledger Row",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "The signature proof pattern for a claim and its quantified receipt.",
+      "html": "<div class=\"ds-ledger\"><span>ARR portfolio owned</span><i></i><strong>$30M+</strong></div>",
+      "css": ".ds-ledger { display: flex; align-items: baseline; gap: 12px; min-height: 48px; color: oklch(24.93% 0.0295 165.42); font: 500 16px/1.5 'Public Sans', Arial, sans-serif; } .ds-ledger i { flex: 1; min-width: 24px; border-bottom: 2px dotted oklch(89.69% 0.0101 155.08); } .ds-ledger strong { position: relative; color: oklch(24.93% 0.0295 165.42); font: 600 17px/1.4 'Azeret Mono', monospace; } .ds-ledger strong::after { position: absolute; right: 0; bottom: -5px; left: 0; height: 3px; border-radius: 99px; background: oklch(76.29% 0.1551 77.31); content: ''; } .ds-ledger:hover i { border-color: oklch(42.57% 0.0791 164.27); } .ds-ledger:focus-within { outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 3px; }"
+    },
+    {
+      "name": "Eyebrow",
+      "kind": "custom",
+      "refersTo": "chip",
+      "description": "A small signal marker that orients each major section.",
+      "html": "<div class=\"ds-eyebrow\"><i></i><span>THE OPERATING METHOD</span></div>",
+      "css": ".ds-eyebrow { display: flex; align-items: center; gap: 10px; color: oklch(43.51% 0.021 163.81); font: 600 11px/1.4 'Azeret Mono', monospace; letter-spacing: 0.115em; text-transform: uppercase; } .ds-eyebrow i { width: 8px; height: 8px; flex: 0 0 auto; border-radius: 2px; background: oklch(76.29% 0.1551 77.31); } .ds-eyebrow:hover { color: oklch(24.93% 0.0295 165.42); } .ds-eyebrow:focus-within { outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 3px; }"
+    },
+    {
+      "name": "Sticky Navigation",
+      "kind": "nav",
+      "refersTo": "button-primary",
+      "description": "A translucent working bar with quiet links and one clear commitment action.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#\"><b>Sheila</b> Kwan</a><div><a href=\"#\">Services</a><a href=\"#\">The Audit</a><button>Book a fit call</button></div></nav>",
+      "css": ".ds-nav { display: flex; min-height: 80px; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid oklch(89.69% 0.0101 155.08); padding: 0 24px; background: color-mix(in oklch, oklch(97.08% 0.0045 134.85), transparent 8%); color: oklch(24.93% 0.0295 165.42); font-family: 'Public Sans', Arial, sans-serif; backdrop-filter: blur(14px); } .ds-nav a { display: inline-flex; min-height: 44px; align-items: center; color: oklch(43.51% 0.021 163.81); font-weight: 600; text-decoration: none; } .ds-nav > div { display: flex; align-items: center; gap: 24px; } .ds-nav a:hover { color: oklch(24.93% 0.0295 165.42); } .ds-nav a:focus-visible, .ds-nav button:focus-visible { outline: 2px solid oklch(42.57% 0.0791 164.27); outline-offset: 3px; } .ds-nav .ds-wordmark { color: oklch(24.93% 0.0295 165.42); font: 600 21px/1 'Bricolage Grotesque', Arial, sans-serif; letter-spacing: -0.03em; } .ds-nav .ds-wordmark b { margin-right: 5px; color: oklch(42.57% 0.0791 164.27); } .ds-nav button { min-height: 46px; border: 0; border-radius: 10px; padding: 12px 18px; background: oklch(42.57% 0.0791 164.27); color: oklch(97.08% 0.0045 134.85); font-weight: 700; cursor: pointer; } .ds-nav button:hover { background: oklch(35.97% 0.0675 164.94); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Revenue Health Ledger",
+    "overview": "The system should feel like the operating artifact an experienced revenue leader keeps open during a working session: calm, exact, candid, and visibly useful. Cool greens signal health and ownership, warm marigold flags the one number that needs attention, and generous space lets short statements land without theater.\n\nThis is a quiet operating system for revenue, not a campaign page dressed as one. Structure comes from ledger lines, ranked rows, clear commitments, and proof in numbers. The interface rejects visual hype, decorative technology motifs, and anything that makes Sheila look like an agency selling a deck or a developer selling a chatbot.",
+    "keyCharacteristics": [
+      "Calm and precise before clever.",
+      "Operator evidence over ornamental storytelling.",
+      "Flat surfaces, hairline structure, and one warm signal.",
+      "Generous rhythm with compact, purposeful controls.",
+      "Responsive motion that confirms state without becoming a spectacle."
+    ],
+    "rules": [
+      { "name": "The One Signal Rule", "body": "Marigold is used once per visual cluster as a marker, underline, or tiny chip. Its rarity gives it meaning.", "section": "colors" },
+      { "name": "The Healthy Contrast Rule", "body": "Evergreen and pine carry readable text and controls. Fern and marigold never become low-contrast body text.", "section": "colors" },
+      { "name": "The Numbers Have a Voice Rule", "body": "All statistics, prices, dates, eyebrow labels, and ledger values use Azeret Mono. Paragraphs never do.", "section": "typography" },
+      { "name": "The One H1 Rule", "body": "Every route has exactly one display headline. Scale steps down through semantic headings without skipping for appearance.", "section": "typography" },
+      { "name": "The Flat by Default Rule", "body": "Borders and tonal changes establish hierarchy. If a shadow is obvious before the content is read, it is too strong.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use the ledger row for proof, pricing, and quantified commitments.",
+      "Do keep content measures near 70 characters and section rhythm between 5rem and 7.5rem.",
+      "Do use real revenue, retention, adoption, and delivery numbers as the visual authority.",
+      "Do make the commitment gradient visually obvious: scorecard, fit call, audit, then implementation.",
+      "Do respect a 44px minimum target, visible focus, semantic landmarks, one H1, explicit form feedback, and reduced motion.",
+      "Do keep animation to the 500ms reveal, the 80ms hero stagger, and direct hover feedback."
+    ],
+    "donts": [
+      "Don't build a generic AI consultancy site or a cream-and-serif consulting template.",
+      "Don't use breathless futurism, dark neon technology branding, purple gradients, or decorative dashboards.",
+      "Don't use fake social proof, vague capability claims, stock handshake imagery, or ornamental metrics.",
+      "Don't use marketing language such as \"cutting-edge,\" \"revolutionize,\" \"unlock,\" or \"leverage synergies.\"",
+      "Don't make the site feel like an agency selling a deck or a developer selling a chatbot.",
+      "Don't use marigold for body text or as a large surface fill.",
+      "Don't add decorative icons when typography, a ledger line, or a plain sentence communicates the meaning.",
+      "Don't add extra motion, heavy shadows, oversized pills, gradient text, or rounded containers around every section."
+    ]
+  }
+}
