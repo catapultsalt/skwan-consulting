@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import fs from "node:fs";
 import path from "node:path";
-import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Container } from "@/components/Container";
 import { Eyebrow } from "@/components/Eyebrow";
@@ -25,14 +24,12 @@ const routes = [
 ] as const;
 
 export default function ReviewPage() {
-  if (process.env.VERCEL_ENV === "production") notFound();
-
   const status = fs.readFileSync(path.join(process.cwd(), "EXECUTION-STATUS.md"), "utf8");
 
   return (
     <section className="review-page section-pad">
       <Container>
-        <Eyebrow>PRIVATE PREVIEW</Eyebrow>
+        <Eyebrow>REVIEW BUILD</Eyebrow>
         <h1>Review dashboard</h1>
         <p className="page-lead">
           Open every public screen below. The running checklist follows and remains the single source of truth for done,

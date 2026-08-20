@@ -10,7 +10,7 @@ Legend: `[x]` done, `[~]` in progress, `[ ]` ready, `[!]` blocked by account, pu
 - [x] Establish the product and brand context in `PRODUCT.md`.
 - [x] Build the complete website preview and all public routes.
 - [x] Verify responsive behavior, keyboard access, forms, SEO, lint, and the production build.
-- [~] Publish a review link before connecting the final domain.
+- [x] Publish a review link before connecting the final domain: `https://skwan-consulting.vercel.app/review`.
 
 ## Website acceptance
 
