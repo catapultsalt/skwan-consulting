@@ -1,138 +1,118 @@
 ---
 name: Sheila Kwan Consulting
-description: A confident, charming operating playbook for AI implementation, customer success, and pipeline work that pays.
+description: A discreet, fashion-house-calibre private advisory for B2B operators who expect proof.
 colors:
-  paper: "oklch(97.3% 0.018 88)"
-  surface: "oklch(99% 0.01 88)"
-  ink: "oklch(23.5% 0.045 297)"
-  slate: "oklch(43% 0.035 294)"
-  violet: "oklch(43% 0.16 301)"
-  coral: "oklch(70% 0.17 35)"
-  butter: "oklch(91.5% 0.125 97)"
-  mint: "oklch(89% 0.065 158)"
-  lilac: "oklch(89.5% 0.07 310)"
-  sky: "oklch(90% 0.06 235)"
+  silk: "oklch(97.2% 0.012 78)"
+  ivory: "oklch(99% 0.006 78)"
+  bone: "oklch(92.8% 0.018 72)"
+  ink: "oklch(16.5% 0.018 345)"
+  graphite: "oklch(35% 0.018 340)"
+  claret: "oklch(35% 0.115 18)"
+  wine: "oklch(25.5% 0.075 12)"
+  rouge: "oklch(55% 0.155 20)"
+  champagne: "oklch(82% 0.055 82)"
+  blush: "oklch(89% 0.035 15)"
 typography:
   display:
-    fontFamily: "Gabarito, Arial, sans-serif"
-    fontSize: "clamp(3.35rem, 7vw, 6.8rem)"
-    fontWeight: 800
-    lineHeight: 0.92
-    letterSpacing: "-0.045em"
-  headline:
-    fontFamily: "Gabarito, Arial, sans-serif"
-    fontSize: "clamp(2.6rem, 5vw, 4.8rem)"
-    fontWeight: 800
-    lineHeight: 0.96
-    letterSpacing: "-0.045em"
+    fontFamily: "Bodoni Moda, Georgia, serif"
+    fontSize: "clamp(4rem, 8vw, 7.6rem)"
+    fontWeight: 600
+    lineHeight: 0.87
+    letterSpacing: "-0.055em"
   body:
-    fontFamily: "Hanken Grotesk, Arial, sans-serif"
-    fontSize: "1.075rem"
+    fontFamily: "Manrope, Arial, sans-serif"
+    fontSize: "1.04rem"
     fontWeight: 400
-    lineHeight: 1.62
-  note:
-    fontFamily: "Kalam, cursive"
-    fontSize: "0.95rem"
-    fontWeight: 700
-    lineHeight: 1.2
+    lineHeight: 1.66
 rounded:
-  sm: "0.75rem"
-  md: "1.15rem"
+  sm: "0.15rem"
+  md: "0.25rem"
 spacing:
-  control-min-height: "2.875rem"
-  container-gutter: "1.25rem"
-  section-min: "5.5rem"
-  section-max: "9rem"
+  control-min-height: "3rem"
+  container-gutter: "1.5rem"
+  section-min: "6.5rem"
+  section-max: "10rem"
 components:
   button-primary:
-    backgroundColor: "{colors.violet}"
-    textColor: "{colors.paper}"
-    borderColor: "{colors.ink}"
-    shadow: "4px 4px 0 {colors.ink}"
+    backgroundColor: "{colors.claret}"
+    textColor: "{colors.ivory}"
+    borderColor: "{colors.claret}"
+    shadow: "none"
   button-secondary:
-    backgroundColor: "{colors.butter}"
+    backgroundColor: "transparent"
     textColor: "{colors.ink}"
     borderColor: "{colors.ink}"
-    shadow: "4px 4px 0 {colors.ink}"
+    shadow: "none"
   card:
-    backgroundColor: "{colors.surface}"
+    backgroundColor: "{colors.ivory}"
     textColor: "{colors.ink}"
     borderColor: "{colors.ink}"
-    shadow: "7px 7px 0 {colors.ink}"
+    shadow: "none"
   field:
-    backgroundColor: "{colors.surface}"
+    backgroundColor: "{colors.ivory}"
     textColor: "{colors.ink}"
     borderColor: "{colors.ink}"
-    shadow: "3px 3px 0 color-mix(in oklch, {colors.ink}, transparent 76%)"
+    shadow: "none"
 ---
 
 # Design System: Sheila Kwan Consulting
 
 ## Overview
 
-**Creative North Star: “The Marked-Up Playbook”**
+**Creative North Star: “The Private Intelligence Dossier”**
 
-The experience should feel like a founder opening a beautifully marked-up working brief at a sunlit table before a decisive 20-minute conversation. It is direct enough to trust, colorful enough to remember, and practical enough to use on Monday morning.
+The site should feel like a founder opening a slim black laptop in a paneled hotel bar between a board meeting and dinner. The information is discreet, the point of view is expensive, and every line suggests that Sheila already understands what the room has not said aloud.
 
-Confidence comes from oversized plain-spoken headlines, public prices, specific proof, and decisive composition. Charm comes from warm paper, hand-marked notes, imperfect rotations, playful blocks of color, and small drawn gestures. Trust comes from strong contrast, generous reading rhythm, real numbers, visible guarantees, and interfaces that never hide what happens next.
-
-The site is creative without behaving like a creative agency. It is an operator’s playbook with personality: tactile, candid, commercially serious, and unmistakably Sheila.
+This is not a generic cream-and-serif consultancy template. The authority comes from black lacquer fields, claret interventions, strict rules, public prices, and commercial receipts. The charm comes from Bodoni italics, blush papers, champagne details, and controlled asymmetry. The result is confident, knowing, and selective: private intelligence from an operator who ships.
 
 ## Colors
 
-The palette combines warm working-paper neutrals with a deep aubergine ink and four optimistic high-contrast accents.
+The palette is evening tailoring rather than technology branding.
 
-- **Paper** is the default page field. It keeps the system warm and grounded.
-- **Surface** is the clean card and input layer.
-- **Ink** is the authority color for text, borders, proof bands, and offset shadows.
-- **Slate** carries supporting copy only.
-- **Violet** is the principal brand and commitment color.
-- **Coral** signals action, urgency, and hand-drawn emphasis.
-- **Butter** makes key offers and evidence feel approachable.
-- **Mint** signals ownership, healthy systems, and good-fit states.
-- **Lilac** adds creative warmth without sacrificing readability.
-- **Sky** is reserved for calm explanatory sections such as FAQs.
+- **Ink** and **wine** create the private-club foundation: masthead, proof ledger, service hero, and footer.
+- **Claret** is the decisive signature used for the Audit, conversion moments, and the one element that should command a room.
+- **Silk**, **ivory**, and **bone** are tactile papers, never blank corporate white.
+- **Champagne** marks access, evidence, prices, and precision.
+- **Blush** provides wit and warmth without becoming sweet.
+- **Graphite** is the only supporting-copy neutral; **rouge** is reserved for active states and emphasis.
 
-Every text-bearing surface must maintain clear ink-on-light or paper-on-dark contrast. Accent colors may fill large surfaces, but never become low-contrast body text. A screen should normally feature paper plus two or three accents, not the entire palette at equal volume.
+Use one dominant field and one supporting accent per composition. Never place decorative color through reading copy on small screens. Text remains ink on light surfaces or ivory on dark surfaces, with AA contrast as the floor.
 
 ## Typography
 
-**Gabarito** carries headlines, offer names, proof values, and decisive calls to action. Its dense, rounded geometry feels confident and personable. **Hanken Grotesk** keeps body copy open, modern, and credible. **Kalam** is used sparingly for human annotations and section notes.
+**Bodoni Moda** is the voice of confidence: high-contrast, composed, and editorial. It carries H1s, section statements, proof values, offer names, and short italic provocations. **Manrope** is the intelligence layer: precise, contemporary, and highly readable for operating detail, navigation, forms, labels, and prices.
 
-- Display: Gabarito 800–900, very tight leading and tracking, one memorable H1 per route.
-- Section headline: Gabarito 800, compact line length, written as a strong proposition.
-- Card title: Gabarito 700–800, large enough to make the offer scannable.
-- Body: Hanken Grotesk 400–600, 1.62 line height, approximately 65–70 characters per line.
-- Working note: Kalam 700 on a butter or coral tag, never used for paragraphs.
+- Display: Bodoni Moda 600, tightly tracked, short line lengths, and one commanding H1 per route.
+- Editorial italic: Bodoni Moda 500 italic for tension, not decoration.
+- Body: Manrope 400–650 at 1.6–1.7 line height and approximately 65 characters per line.
+- Labels: Manrope 700–750 in restrained uppercase with wide tracking.
 
-Sentence case is the default. Tiny all-caps labels are limited to prices, metadata, and operational states. Handwritten notes should feel like useful marginalia, not decoration pasted onto every section.
+The serif may be dramatic; the copy must remain plain. Avoid novelty fonts, handwritten marginalia, and oversized type that forces broken words or horizontal scrolling.
 
 ## Elevation
 
-Depth is graphic and physical. Components use a two-pixel ink outline with a small solid offset shadow, like stacked cards or a working sheet laid on a table. There are no ambient glass shadows.
+Depth comes from material contrast and overlap, not ambient shadows. Black lacquer, blush paper, thin champagne rules, and offset dossier sheets should feel physically layered while remaining mostly flat.
 
-- Controls: `4px 4px 0 ink`.
-- Standard cards: `7px 7px 0 ink`.
-- Hero and guarantee artifacts: `8px–10px` solid offsets using ink or coral.
-- Hover: the object moves toward its shadow by approximately four pixels.
-- Resting surfaces: no shadow unless the element is intended to feel touchable or layered.
+- Standard controls and cards use one-pixel borders with square corners.
+- The hero dossier may use a soft low shadow because it is a singular physical object.
+- About and contact placeholders may use one flat offset sheet in claret.
+- Hover feedback is a two-pixel lift or a decisive color inversion.
+- Circles and hairline arcs are compositional framing devices only; on mobile they retreat before they touch copy.
 
-Small rotations are allowed on notes and selected cards, normally within one degree. They must never reduce legibility or make the layout feel unstable.
+No glassmorphism, pill containers, inflated soft cards, or diffuse dashboard shadows.
 
 ## Components
 
-Buttons are compact tactile blocks with a two-pixel ink border, a solid offset shadow, and a minimum 46px height. Violet is the main commitment action; butter is the principal alternative; coral is used for high-energy navigation and conversion moments.
+The masthead behaves like a private advisory imprint: stacked Sheila Kwan wordmark, a tiny “PRIVATE ADVISORY” line, spare navigation, and one champagne appointment action.
 
-Cards are not a universal container. They are reserved for offers, quotes, proof receipts, forms, and decision blocks. Asymmetric grids, full-bleed color bands, and ruled rows should carry most layout structure.
+The signature **Private Brief** is a black lacquer dossier with numbered operating steps, a claret tab, champagne rules, and an SK monogram. The signature **Proof Ledger** presents results as a confidential report: claim on the left, large evidence on the right, each separated by a strict rule.
 
-The signature **Playbook Board** translates the method into a tangible working artifact: pressure to proof, three checked steps, and a “your team owns it” stamp. The signature **Receipt Row** pairs a specific operating claim with an oversized violet value on alternating paper, lilac, mint, and butter sheets.
+Offer compositions vary by commercial weight rather than repeating a card grid. Forms use explicit labels, square high-contrast fields, visible focus, and direct consent language. Route navigation on the review dashboard reads like an indexed file. Mobile credentials become a three-line ruled ledger, and the navigation becomes a full-width black menu with fashion-editorial type.
 
-Section notes appear after the heading as small, slightly rotated handwritten tags. Navigation uses a clear wordmark, an understated coral star, direct text links, and a tactile fit-call button. Forms use explicit labels, large fields, visible focus, plain error language, and no decorative placeholders.
-
-Motion is limited to short entrance reveals and direct hover/press feedback. Reduced-motion preferences remove the animation without changing hierarchy or meaning.
+Motion is limited to short reveals and direct hover feedback. Reduced-motion preferences preserve every hierarchy and state without animation.
 
 ## Do’s and Don’ts
 
-Do use public prices, timelines, guarantees, and real operating numbers as the visual authority. Do make every screen feel composed rather than templated. Do vary section structure between large type, colored bands, asymmetric sheets, lists, and proof rows. Do protect strong contrast, visible focus, 44px targets, one H1, semantic landmarks, and responsive reading order.
+Do lead with a knowing commercial truth, then prove it with real numbers, public prices, delivery windows, and candid qualification. Do use space like confidence. Do alternate black, claret, silk, blush, and champagne with deliberate restraint. Do make desktop feel cinematic and mobile feel edited, never merely stacked. Do preserve one H1, semantic landmarks, visible focus, 44px targets, and no horizontal overflow.
 
-Do not return to restrained corporate green, hairline-only cards, repetitive centered headings, or the generic consultancy-card grid. Do not use neon futurism, stock office imagery, ornamental dashboards, generic AI symbols, glassmorphism, gradient text, excessive pills, or decorative icons where a plain sentence works. Do not place large decorative shapes through body copy on small screens. Do not let charm become childishness or confidence become shouting; the work must still feel commercially mature and trustworthy.
+Do not use generic AI symbols, neon futurism, stock office imagery, decorative dashboards, childish doodles, rainbow accents, tactile sticker shadows, rounded startup cards, or manufactured luxury copy. Do not imitate a fashion magazine without operating substance. Do not let ornamental circles cross text on mobile. Do not soften a direct answer when specificity is more trustworthy.

@@ -9,13 +9,13 @@ Legend: `[x]` done, `[~]` in progress, `[ ]` ready, `[!]` blocked by account, pu
 - [x] Reconcile the business plan, website plan, build spec, and launch checklist.
 - [x] Establish the product and brand context in `PRODUCT.md`.
 - [x] Build the complete website preview and all public routes.
-- [x] Replace the restrained first design with the confident, charming, trustworthy, and creative “Marked-Up Playbook” system.
+- [x] Replace the prior visual direction with the chic, selective “Private Intelligence Dossier” system.
 - [x] Verify responsive behavior, keyboard access, forms, SEO, lint, and the production build.
 - [x] Publish a review link before connecting the final domain: `https://skwan-consulting.vercel.app/review`.
 
 ## Website acceptance
 
-- [x] “Marked-Up Playbook” visual system, tactile components, and responsive navigation
+- [x] “Private Intelligence Dossier” visual system, editorial components, and responsive navigation
 - [x] Home
 - [x] AI Clarity Audit
 - [x] Services
@@ -43,7 +43,7 @@ Legend: `[x]` done, `[~]` in progress, `[ ]` ready, `[!]` blocked by account, pu
 - [x] Contact form: server validation and preview submission verified
 - [x] Scorecard form: double-opt-in preview state verified
 - [x] Accessibility: Lighthouse 100 after redesign; prior axe scan found zero violations on sampled routes
-- [x] Lighthouse production audit after redesign: Performance 94, Accessibility 100, Best Practices 100, SEO 100
+- [x] Lighthouse production audit after redesign: Performance 96–97, Accessibility 100, Best Practices 100, SEO 100
 - [ ] User human QA on phone and laptop
 
 ## Launch checklist

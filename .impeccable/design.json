@@ -1,34 +1,32 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-20T20:30:00Z",
+  "generatedAt": "2026-08-20T20:36:22Z",
   "title": "Design System: Sheila Kwan Consulting",
-  "northStar": "The Marked-Up Playbook",
+  "northStar": "The Private Intelligence Dossier",
   "extensions": {
     "colorMeta": {
-      "paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "oklch(97.3% 0.018 88)" },
-      "surface": { "role": "neutral", "displayName": "Clean Sheet", "canonical": "oklch(99% 0.01 88)" },
-      "ink": { "role": "neutral", "displayName": "Aubergine Ink", "canonical": "oklch(23.5% 0.045 297)" },
-      "slate": { "role": "neutral", "displayName": "Operator Slate", "canonical": "oklch(43% 0.035 294)" },
-      "violet": { "role": "primary", "displayName": "Decisive Violet", "canonical": "oklch(43% 0.16 301)" },
-      "coral": { "role": "secondary", "displayName": "Action Coral", "canonical": "oklch(70% 0.17 35)" },
-      "butter": { "role": "secondary", "displayName": "Working Butter", "canonical": "oklch(91.5% 0.125 97)" },
-      "mint": { "role": "secondary", "displayName": "Ownership Mint", "canonical": "oklch(89% 0.065 158)" },
-      "lilac": { "role": "tertiary", "displayName": "Creative Lilac", "canonical": "oklch(89.5% 0.07 310)" },
-      "sky": { "role": "tertiary", "displayName": "Question Sky", "canonical": "oklch(90% 0.06 235)" }
+      "silk": { "role": "neutral", "displayName": "Warm Silk", "canonical": "oklch(97.2% 0.012 78)" },
+      "ivory": { "role": "neutral", "displayName": "Private Ivory", "canonical": "oklch(99% 0.006 78)" },
+      "bone": { "role": "neutral", "displayName": "Ledger Bone", "canonical": "oklch(92.8% 0.018 72)" },
+      "ink": { "role": "neutral", "displayName": "Lacquer Ink", "canonical": "oklch(16.5% 0.018 345)" },
+      "graphite": { "role": "neutral", "displayName": "Editorial Graphite", "canonical": "oklch(35% 0.018 340)" },
+      "claret": { "role": "primary", "displayName": "Decisive Claret", "canonical": "oklch(35% 0.115 18)" },
+      "wine": { "role": "secondary", "displayName": "Private Wine", "canonical": "oklch(25.5% 0.075 12)" },
+      "rouge": { "role": "secondary", "displayName": "Active Rouge", "canonical": "oklch(55% 0.155 20)" },
+      "champagne": { "role": "secondary", "displayName": "Champagne Detail", "canonical": "oklch(82% 0.055 82)" },
+      "blush": { "role": "tertiary", "displayName": "Knowing Blush", "canonical": "oklch(89% 0.035 15)" }
     },
     "typographyMeta": {
-      "display": { "displayName": "Confident Display", "fontFamily": "Gabarito", "purpose": "Decisive headlines, offer names, and proof values." },
-      "body": { "displayName": "Trustworthy Body", "fontFamily": "Hanken Grotesk", "purpose": "Readable operating detail and long-form explanation." },
-      "note": { "displayName": "Human Note", "fontFamily": "Kalam", "purpose": "Sparse working annotations and section tags." }
+      "display": { "displayName": "Private Editorial", "fontFamily": "Bodoni Moda", "purpose": "Commanding headlines, proof values, and short italic provocations." },
+      "body": { "displayName": "Operator Intelligence", "fontFamily": "Manrope", "purpose": "Operating detail, labels, forms, prices, and navigation." }
     },
     "shadows": [
-      { "name": "control-offset", "value": "4px 4px 0 var(--ink)", "purpose": "Tactile buttons and compact controls." },
-      { "name": "card-offset", "value": "7px 7px 0 var(--ink)", "purpose": "Physical offer, quote, proof, and form surfaces." },
-      { "name": "hero-offset", "value": "10px 10px 0 var(--coral)", "purpose": "Signature playbook and focal artifacts." }
+      { "name": "dossier-depth", "value": "0 28px 52px color-mix(in oklch, var(--ink), transparent 76%)", "purpose": "Reserved for the single black hero dossier." },
+      { "name": "flat-offset", "value": "14px 14px 0 var(--claret)", "purpose": "A controlled second sheet for profile and booking placeholders." }
     ],
     "motion": [
-      { "name": "direct-feedback", "value": "180ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Press and hover movement toward an offset shadow." },
-      { "name": "section-reveal", "value": "500ms fade with 12px rise", "purpose": "One-time entrance reveal, disabled for reduced motion." }
+      { "name": "direct-feedback", "value": "180ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Two-pixel lift and color inversion for interactive controls." },
+      { "name": "editorial-reveal", "value": "500ms fade with 12px rise", "purpose": "One-time section entry, removed for reduced motion." }
     ],
     "breakpoints": [
       { "name": "tablet", "value": "900px" },
@@ -37,44 +35,37 @@
   },
   "components": [
     {
-      "name": "Tactile Primary Button",
+      "name": "Champagne Appointment Button",
       "kind": "button",
-      "description": "Violet commitment action with ink outline and offset shadow.",
-      "html": "<a class=\"button button-primary\">Book a fit call</a>",
-      "css": ".button-primary { min-height:46px; border:2px solid var(--ink); border-radius:12px; background:var(--violet); color:var(--paper); box-shadow:4px 4px 0 var(--ink); font:700 16px/1.1 'Hanken Grotesk',sans-serif; }"
+      "description": "A square, tightly typeset appointment action reserved for the masthead and decisive conversion moments.",
+      "html": "<a class=\"button nav-cta\">Book a fit call</a>",
+      "css": ".nav-cta { min-height:48px; border:1px solid var(--champagne); border-radius:0; background:var(--champagne); color:var(--ink); font:750 12px/1.1 Manrope,sans-serif; letter-spacing:.105em; text-transform:uppercase; }"
     },
     {
-      "name": "Working Note",
-      "kind": "label",
-      "description": "A sparse handwritten annotation that adds human context after a heading.",
-      "html": "<span class=\"section-note\">HOW WE WORK TOGETHER</span>",
-      "css": ".section-note { display:inline-block; border:2px solid var(--ink); border-radius:6px; padding:4px 10px; background:var(--butter); color:var(--ink); font:700 15px/1.2 Kalam,cursive; transform:rotate(-1.5deg); }"
-    },
-    {
-      "name": "Playbook Board",
+      "name": "Private Brief",
       "kind": "hero-artifact",
-      "description": "A tactile three-step operating artifact that turns method into memorable evidence.",
-      "html": "<figure class=\"playbook-board\"><strong>From pressure to proof</strong><div>Diagnose the number</div><div>Build the smallest fix</div><div>Make it stick</div></figure>",
-      "css": ".playbook-board { border:3px solid var(--ink); border-radius:20px; padding:42px; background:var(--surface); box-shadow:10px 10px 0 var(--coral); transform:rotate(1.5deg); }"
+      "description": "A black lacquer operating dossier with a claret tab, numbered method, champagne rules, and SK monogram.",
+      "html": "<figure class=\"playbook-board\"><span>PRIVATE BRIEF · NO. 01</span><strong>intelligence</strong><div>01 Name the revenue leak</div><div>02 Build the proof</div><div>03 Make the system yours</div></figure>",
+      "css": ".playbook-board { border:1px solid var(--champagne); border-radius:0; padding:42px; background:var(--ink); color:var(--ivory); box-shadow:0 28px 52px color-mix(in oklch,var(--ink),transparent 76%); transform:rotate(-2deg); }"
     },
     {
-      "name": "Receipt Row",
+      "name": "Proof Ledger",
       "kind": "proof",
-      "description": "A bordered working sheet that pairs a specific claim with an oversized proof value.",
+      "description": "A ruled black report that pairs an operating claim with an oversized champagne result.",
       "html": "<div class=\"ledger-row\"><span>Churn risk eliminated</span><strong>$21M</strong></div>",
-      "css": ".ledger-row { min-height:82px; border:2px solid var(--ink); border-radius:14px; padding:16px 20px; background:var(--lilac); box-shadow:5px 5px 0 var(--coral); color:var(--ink); }"
+      "css": ".ledger-row { display:grid; grid-template-columns:1fr auto; border-bottom:1px solid color-mix(in oklch,var(--champagne),transparent 50%); padding:24px 0; background:var(--ink); color:var(--ivory); }"
     },
     {
-      "name": "Tactile Field",
+      "name": "Private Field",
       "kind": "input",
-      "description": "Explicitly labeled, high-contrast field with a physical offset cue.",
+      "description": "An explicitly labeled square field with a high-contrast rule and visible claret focus state.",
       "html": "<label>Work email<input type=\"email\"></label>",
-      "css": "input { min-height:48px; border:2px solid var(--ink); border-radius:12px; padding:13px 16px; background:var(--surface); color:var(--ink); box-shadow:3px 3px 0 color-mix(in oklch,var(--ink),transparent 76%); }"
+      "css": "input { min-height:54px; border:1px solid var(--ink); border-radius:0; padding:13px 16px; background:var(--ivory); color:var(--ink); } input:focus { border-color:var(--claret); box-shadow:0 0 0 2px color-mix(in oklch,var(--claret),transparent 78%); }"
     }
   ],
   "narrative": {
-    "creativeNorthStar": "A founder opens a beautifully marked-up working brief at a sunlit table before a decisive 20-minute conversation.",
-    "traits": ["confident", "charming", "trustworthy", "creative", "commercially serious"],
-    "avoid": ["generic consultancy grids", "restrained corporate green", "neon AI futurism", "stock office imagery", "ornamental dashboards", "low-contrast accent text"]
+    "creativeNorthStar": "A founder opens a slim black laptop in a paneled hotel bar between a board meeting and dinner; the screen reads like private commercial intelligence.",
+    "traits": ["confident", "knowing", "charming", "trustworthy", "selective", "commercially exact"],
+    "avoid": ["generic cream-and-serif consultancy templates", "neon AI futurism", "stock office imagery", "decorative dashboards", "rounded startup cards", "colorful sticker aesthetics", "ornament crossing mobile copy"]
   }
 }

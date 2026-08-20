@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
-import { Gabarito, Hanken_Grotesk, Kalam } from "next/font/google";
+import { Bodoni_Moda, Manrope } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 import { Nav } from "@/components/Nav";
@@ -8,24 +8,18 @@ import { site } from "@/site.config";
 import "./globals.css";
 import "./redesign.css";
 
-const display = Gabarito({
+const display = Bodoni_Moda({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800", "900"],
+  weight: "variable",
+  style: ["normal", "italic"],
   display: "swap",
 });
 
-const body = Hanken_Grotesk({
+const body = Manrope({
   variable: "--font-body",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const note = Kalam({
-  variable: "--font-note",
-  subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: "variable",
   display: "swap",
 });
 
@@ -55,7 +49,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#F4F6F3",
+  themeColor: "#181115",
 };
 
 const businessJsonLd = {
@@ -83,7 +77,7 @@ const businessJsonLd = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} ${note.variable}`}>
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
         <a href="#main-content" className="skip-link">
           Skip to content

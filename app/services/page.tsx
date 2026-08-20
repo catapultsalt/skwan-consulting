@@ -65,8 +65,11 @@ export default function ServicesPage() {
           </p>
         </Container>
       </section>
-      <section className="section-pad service-list-section">
+      <section className="section-pad service-list-section" aria-labelledby="services-list-title">
         <Container className="service-list">
+          <h2 id="services-list-title" className="sr-only">
+            Consulting offers
+          </h2>
           {offers.map((offer, index) => (
             <Reveal key={offer.title} delay={(index % 2) * 60}>
               <OfferCard number={String(index + 1).padStart(2, "0")} {...offer} />

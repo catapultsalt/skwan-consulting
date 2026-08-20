@@ -37,7 +37,7 @@ export default function Home() {
       <section className="hero section-pad">
         <Container className="hero-grid">
           <div className="hero-copy">
-            <Eyebrow>AI IMPLEMENTATION · CUSTOMER SUCCESS · PIPELINE</Eyebrow>
+            <Eyebrow>PRIVATE ADVISORY · B2B OPERATORS</Eyebrow>
             <h1>
               <span className="hero-line hero-line-one">AI is everywhere in your industry.</span>
               <span className="hero-line hero-line-two"><em>Results</em> are not.</span>
@@ -55,40 +55,38 @@ export default function Home() {
               </ButtonLink>
             </div>
           </div>
-          <figure className="hero-art" aria-label="The Diagnose, Build, Adopt operating method">
+          <figure className="hero-art" aria-label="A private operating brief for turning AI pressure into measurable results">
             <div className="hero-art-orbit" aria-hidden="true" />
             <div className="playbook-board">
-              <span className="playbook-note">built for Monday morning</span>
+              <span className="playbook-note">PRIVATE BRIEF · NO. 01</span>
               <div className="playbook-heading">
-                <span>From pressure</span>
-                <strong>to proof</strong>
+                <span>THE KWAN</span>
+                <strong>intelligence</strong>
               </div>
               <div className="playbook-step playbook-step-one">
                 <span>01</span>
-                <strong>Diagnose the number</strong>
-                <i aria-hidden="true">✓</i>
+                <strong>Name the revenue leak</strong>
+                <i aria-hidden="true">A</i>
               </div>
               <div className="playbook-step playbook-step-two">
                 <span>02</span>
-                <strong>Build the smallest fix</strong>
-                <i aria-hidden="true">✓</i>
+                <strong>Build the proof</strong>
+                <i aria-hidden="true">B</i>
               </div>
               <div className="playbook-step playbook-step-three">
                 <span>03</span>
-                <strong>Make it stick</strong>
-                <i aria-hidden="true">✓</i>
+                <strong>Make the system yours</strong>
+                <i aria-hidden="true">C</i>
               </div>
-              <span className="playbook-stamp">YOUR TEAM OWNS IT</span>
-              <svg className="playbook-arrow" viewBox="0 0 120 74" aria-hidden="true">
-                <path d="M5 10C38 3 74 8 86 31C95 48 83 60 64 63" />
-                <path d="M66 48L61 64L78 69" />
-              </svg>
+              <span className="playbook-stamp">THE ROOM GETS QUIETER</span>
+              <span className="playbook-monogram" aria-hidden="true">SK</span>
             </div>
           </figure>
-          <p className="credibility-strip">
-            Ran a $30M+ ARR portfolio <span>·</span> Eliminated $21M in churn risk <span>·</span> Ships AI daily, not
-            quarterly
-          </p>
+          <div className="credibility-strip" aria-label="Operating credentials">
+            <span>Ran a $30M+ ARR portfolio</span>
+            <span>Eliminated $21M in churn risk</span>
+            <span>Ships AI daily, not quarterly</span>
+          </div>
         </Container>
       </section>
 
