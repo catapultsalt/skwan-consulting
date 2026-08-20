@@ -14,6 +14,10 @@ export type Post = {
 
 const postsDirectory = path.join(process.cwd(), "content", "insights");
 
+function includeDrafts(): boolean {
+  return process.env.VERCEL_ENV !== "production" || !process.env.NEXT_PUBLIC_SITE_URL;
+}
+
 function readPost(slug: string): Post {
   const source = fs.readFileSync(path.join(postsDirectory, `${slug}.mdx`), "utf8");
   const { data, content } = matter(source);
@@ -29,13 +33,11 @@ function readPost(slug: string): Post {
 }
 
 export const getAllPosts = cache((): Post[] => {
-  const includeDrafts = process.env.VERCEL_ENV !== "production";
-
   return fs
     .readdirSync(postsDirectory)
     .filter((file) => file.endsWith(".mdx"))
     .map((file) => readPost(file.replace(/\.mdx$/, "")))
-    .filter((post) => includeDrafts || !post.draft)
+    .filter((post) => includeDrafts() || !post.draft)
     .sort((a, b) => b.date.localeCompare(a.date));
 });
 
@@ -44,7 +46,7 @@ export const getPost = cache((slug: string): Post | null => {
   if (!fs.existsSync(filePath)) return null;
 
   const post = readPost(slug);
-  if (post.draft && process.env.VERCEL_ENV === "production") return null;
+  if (post.draft && !includeDrafts()) return null;
   return post;
 });
 
@@ -54,4 +56,3 @@ export function getAllPostSlugs(): string[] {
     .filter((file) => file.endsWith(".mdx"))
     .map((file) => file.replace(/\.mdx$/, ""));
 }
-

@@ -32,6 +32,8 @@ The site renders without credentials in preview mode. Contact and scorecard form
 - `NEXT_PUBLIC_SITE_URL`: canonical production URL
 - `NEXT_PUBLIC_CAL_LINK`: Cal.com event slug
 
+Draft insight posts remain visible while `NEXT_PUBLIC_SITE_URL` is unset for review. Setting the final URL hides drafts marked `draft: true`.
+
 ## Deploy
 
 Import this repository in Vercel, add the environment variables, and deploy. The final domain and Resend sending domain can be attached after the preview is approved.
